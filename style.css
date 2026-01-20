@@ -1,0 +1,99 @@
+/*STYLE GLOBAL */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+/* HEADER */
+header {
+    background-color: #ffe4b3;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+/* MENU DE NAVIGATION*/
+nav ul {
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffcc80;
+    gap: 20px;
+}
+nav a {
+    color: black;
+}
+
+
+/* CONTENU PRINCIPAL */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #cc6600;
+}
+
+/*TABLEAU */
+table {
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+}
+
+table th {
+    background-color: #ffd699;
+}
+
+/*ASIDE */
+aside {
+    background-color: #fff2cc;
+    padding: 15px;
+    margin: 20px;
+    border-left: 4px solid #cc6600;
+}
+
+/*FORMULAIRE*/
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    }
+
+form button {
+    background-color: #ffcc80;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #ffa94d;
+}
+
+/* FOOTER*/
+footer {
+    background-color: #ffcc80;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
